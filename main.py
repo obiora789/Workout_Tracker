@@ -3,7 +3,7 @@ import dotenv
 import requests
 import os
 
-
+# You have to create a .env file 
 kilo_calories = 0
 dotenv_file = dotenv.find_dotenv()
 dotenv.load_dotenv(dotenv_file)
